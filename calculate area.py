@@ -1,3 +1,4 @@
+#calculating area of a circle
 from math import pi
 
 radius=float(input("input the radius of the circle: "))
