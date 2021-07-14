@@ -1,0 +1,5 @@
+x=input("enter your list cof numbers: ")
+list=x.split(",")
+tuple=tuple(list)
+print(list)
+print(tuple)
