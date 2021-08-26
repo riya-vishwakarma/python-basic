@@ -93,3 +93,12 @@ X[1]=66
 for i in X:
    print(i)    
 ```
+
+Question7:-Python program to accept a string from keybord and display it.
+
+ ```python
+#python program to accept a string from keybord
+    
+str=input("enter your name: ")
+print("Hellow ",str)
+```
