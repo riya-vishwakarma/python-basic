@@ -1,2 +1,2 @@
-# python-basic
-basic python programing codes exercises
+# python-basic-exercises
+
