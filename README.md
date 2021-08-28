@@ -176,3 +176,4 @@ str=input("enter binary number: ")
 n=int(str, 2)         #inform the number is base 2
 print("binary to decimal= ",n)
 ```
+
