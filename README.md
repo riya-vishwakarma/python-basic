@@ -121,11 +121,23 @@ str=int(input("enter a number: "))
 print("you entered",str)         #display int number
 ```
 
-Question9:-Python program to accept a float number from keybord.
+Question10:-Python program to accept a float number from keybord.
 
  ```python
 #python program to accept a float number from keybord
     
 str=float(input("enter a number: "))
 print("you entered",str)         #display float number
+```
+Question11:-Python program to accept two numbers and finding their sum.
+
+ ```python
+#python program to accept two numbers and find their sum
+    
+x=int(input("enter your first number: "))
+y=int(input("enter your second number: "))
+print("The sum of",x,"and",y,"is",x+y)
+
+#you can also write this statment as
+print("The sum of {} and {} is {}" .format(x,y,x+y))
 ```
