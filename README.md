@@ -167,4 +167,12 @@ Question13:-Python program to convert numbers from other systems into decimal nu
 str=input("enter hexadecimal number: ")
 n=int(str, 16)         #inform the number is base 16
 print("hexadcimal to decimal= ",n)
+
+str=input("enter octal number: ")
+n=int(str, 8)         #inform the number is base 8
+print("octal to decimal= ",n)
+
+str=input("enter binary number: ")
+n=int(str, 2)         #inform the number is base 2
+print("binary to decimal= ",n)
 ```
