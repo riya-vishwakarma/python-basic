@@ -102,3 +102,12 @@ Question7:-Python program to accept a string from keybord and display it.
 str=input("enter your name: ")
 print("Hellow ",str)
 ```
+
+Question8:-Python program to accept a single character as string.
+
+ ```python
+#python program to accept a single character from keyboard
+    
+char=input("enter a character: ")
+print("Your character is: "+char[0])
+```
