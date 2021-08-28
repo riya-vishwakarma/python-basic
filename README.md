@@ -117,7 +117,15 @@ Question9:-Python program to accept a integer from keybord.
  ```python
 #python program to accept a integer from keybord
     
-str=input("enter a number: ")
-x=int(str)                     #converting string into int
-print("you entered",x)         #display int number
+str=int(input("enter a number: "))
+print("you entered",str)         #display int number
+```
+
+Question9:-Python program to accept a float number from keybord.
+
+ ```python
+#python program to accept a float number from keybord
+    
+str=float(input("enter a number: "))
+print("you entered",str)         #display float number
 ```
