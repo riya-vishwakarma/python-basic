@@ -5,7 +5,6 @@ Here's the set of exercises for beginner to practise while learning python.
 ## **Exercise**:
 
 Question1:-Python program to add two numbers.
-
  ```python
 #python program to add two numbers
     
@@ -140,4 +139,22 @@ print("The sum of",x,"and",y,"is",x+y)
 
 #you can also write this statment as
 print("The sum of {} and {} is {}" .format(x,y,x+y))
+```
+
+Question12:-Python program to find sum and product of two numbers.
+
+ ```python
+#python program to find sum and product of two numbers
+    
+x=int(input("enter your first number: "))
+y=int(input("enter your second number: "))
+
+#display sum
+print("The sum of {0} and {1} is {2}" .format(x,y,x+y))
+
+#display product
+print("The product of {0} and {1} is {2}" .format(x,y,x*y))
+
+#display sum and product
+print("The sum of {0} and {1} is {2} and product of {0} and {1} is {3}" .format(x,y,x+y,x*y))
 ```
