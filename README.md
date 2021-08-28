@@ -111,3 +111,13 @@ Question8:-Python program to accept a single character as string.
 char=input("enter a character: ")
 print("Your character is: "+char[0])
 ```
+
+Question9:-Python program to accept a integer from keybord.
+
+ ```python
+#python program to accept a integer from keybord
+    
+str=input("enter a number: ")
+x=int(str)                     #converting string into int
+print("you entered",x)         #display int number
+```
