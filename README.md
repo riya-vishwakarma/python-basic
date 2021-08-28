@@ -165,6 +165,6 @@ Question13:-Python program to convert numbers from other systems into decimal nu
  ```python
 #input from other number systems     
 str=input("enter hexadecimal number: ")
-n=int(str. 16)         #inform the number is base 16
+n=int(str, 16)         #inform the number is base 16
 print("hexadcimal to decimal= ",n)
 ```
