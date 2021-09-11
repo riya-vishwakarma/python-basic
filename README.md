@@ -219,3 +219,13 @@ result=eval("a+b-6")
 
 print(result)
 ```
+
+
+Question18:-Python program to evaluate the expression enterd from keyboard along with input().
+
+```python
+#using eval() funcion along with input()
+x=eval(input("Enter an expression: "))
+
+print("Result=%d" % x)
+```
