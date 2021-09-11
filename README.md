@@ -197,3 +197,13 @@ num1, num2,num3=[int(x) for x in input("Enter three numbers: ").split(',')]
 
 print("sum= ",num1+num2+num3)
 ```
+
+
+Question14:-Python program to accept group of string seperated by commas and display them again.
+
+```python
+#accept a group of string from keyboard
+str=[x for x in input("Enter the string: ").split(',')]
+
+print("You Entered : \n",str )
+```
