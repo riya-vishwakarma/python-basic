@@ -229,3 +229,13 @@ x=eval(input("Enter an expression: "))
 
 print("Result=%d" % x)
 ```
+
+
+Question19:-Python program to accept a list and display it.
+
+```python
+#accepting a list from keyboard
+x=eval(input("Enter an list: "))
+
+print("list = ",x)
+```
