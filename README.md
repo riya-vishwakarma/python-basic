@@ -188,7 +188,7 @@ print("sum= ",num1+num2+num3)
 ```
 
 
-Question14:-Python program to accept 3 integers seperated by commas and display their sum.
+Question15:-Python program to accept 3 integers seperated by commas and display their sum.
 
 ```python
 #accept 3 numbers seperated by comma
@@ -199,11 +199,23 @@ print("sum= ",num1+num2+num3)
 ```
 
 
-Question14:-Python program to accept group of string seperated by commas and display them again.
+Question16:-Python program to accept group of string seperated by commas and display them again.
 
 ```python
 #accept a group of string from keyboard
 str=[x for x in input("Enter the string: ").split(',')]
 
 print("You Entered : \n",str )
+```
+
+
+
+Question17:-Python program to evaluate the expression enterd from keyboard.
+
+```python
+#using eval() funcion
+a,b=8,3
+result=eval("a+b-6")
+
+print(result)
 ```
