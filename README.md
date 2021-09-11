@@ -249,3 +249,16 @@ tpl=eval(input("Enter a tuple: "))
 print("Tuple = ",tpl)
 ```
 
+Question21:-Python program to display command line arguments.
+
+```python
+#displaying command line argument
+import sys
+n=len(sys.argv)
+args=sys.argv
+print("number of command line args= ",n)
+print("The args are: ", args)
+print("The args one by one: ")
+for a in args:
+  print(a)
+```
