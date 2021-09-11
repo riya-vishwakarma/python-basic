@@ -244,7 +244,8 @@ Question20:-Python program to accept a tuple and display it.
 
 ```python
 #accepting a tuple from keyboard
-tlp=eval(input("Enter a tuple: "))  
+tpl=eval(input("Enter a tuple: "))  
 
 print("Tuple = ",tpl)
 ```
+
