@@ -182,5 +182,18 @@ Question14:-Python program to accept 3 integers in same line and display their s
 ```python
 #accept 3 numbers seperated by space
 num1, num2,num3=[int(x) for x in input("Enter three numbers: ").split()]
+#split() seperates the values by space
+
+print("sum= ",num1+num2+num3)
+```
+
+
+Question14:-Python program to accept 3 integers seperated by commas and display their sum.
+
+```python
+#accept 3 numbers seperated by comma
+num1, num2,num3=[int(x) for x in input("Enter three numbers: ").split(',')]
+#split(',') seperates the values by comma
+
 print("sum= ",num1+num2+num3)
 ```
