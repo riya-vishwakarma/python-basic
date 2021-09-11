@@ -235,7 +235,16 @@ Question19:-Python program to accept a list and display it.
 
 ```python
 #accepting a list from keyboard
-x=eval(input("Enter an list: "))
+x=eval(input("Enter an list: "))  #enter list in this format: ["x","y","z"]
 
 print("list = ",x)
+```
+
+Question20:-Python program to accept a tuple and display it.
+
+```python
+#accepting a tuple from keyboard
+tlp=eval(input("Enter a tuple: "))  
+
+print("Tuple = ",tpl)
 ```
