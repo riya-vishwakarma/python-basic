@@ -177,3 +177,10 @@ n=int(str, 2)         #inform the number is base 2
 print("binary to decimal= ",n)
 ```
 
+Question14:-Python program to accept 3 integers in same line and display their sum.
+
+```python
+#accept 3 numbers seperated by space
+num1, num2,num3=[int(x) for x in input("Enter three numbers: ").split()]
+print("sum= ",num1+num2+num3)
+```
